@@ -1,3 +1,78 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+/*body {
+  background-color: grey;
+}*/
+
+.Krow {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
+
+.Krow > div {
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+}
+
+.Kkey {
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    width: 100px;
+}
+
+.Kkey:hover {
+  background: blue
+}
+
+.Kkey2 {
+    border-radius: 20px;
+    background-color: yellow;
+    width: 150px;
+}
+
+.Kkey3 {
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    width: 140px
+}
+
+.KkeyS {
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    flex-grow: 6
+}
+
+.Kkey2:hover {
+  background: orange
+}
+
+.Kkey3:hover {
+  background: orange
+}
+
+.KkeyS:hover {
+  background: orange
+}
+
+
+
+.Kkey:active {
+  background: green
+ }
+
+.Kkey2:active {
+  background: green
+}
+
+.Kkey3:active {
+  background: green
+}
+
+.KkeyS:active {
+ background: green
+}
